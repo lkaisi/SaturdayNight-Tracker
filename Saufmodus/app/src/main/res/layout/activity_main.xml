@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lukas.saufmodus.MainActivity"
+    android:background="@drawable/beer">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/break_modes"
+        android:id="@+id/abbrechen"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_saufmodus"
+        android:id="@+id/saufmodusStart"
+        android:layout_marginBottom="73dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_tracking"
+        android:id="@+id/trackingStarten"
+        android:layout_marginBottom="65dp"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
